@@ -34,7 +34,7 @@ body {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
-  padding: 30px 40px;
+  padding: 2% 3%;
   background-color: #ece3d4;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
@@ -69,8 +69,8 @@ body {
 .dessertSlides,
 .snackSlides {
   display: none;
-  margin-left: 6.5%;
-  margin-right: 6.5%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 /* STYLE MAIN NAV BAR */
@@ -177,10 +177,10 @@ body {
   top: 50%;
   transform: translateY(-50%);
   z-index: 2;
-  padding: clamp(0.5rem, 1.8vw, 1rem);
+  padding: clamp(0.8rem, 1.8vw, 1rem);
   color: white;
   font-weight: bold;
-  font-size: clamp(0.8rem, 1.8vw, 1.2rem);
+  font-size: clamp(0.75rem, 1.8vw, 1.2rem);
   transition: 0.6s ease;
   border-radius: 5px;
   user-select: none;
@@ -277,7 +277,7 @@ body {
   flex-direction: column;
   align-items: left;
   justify-content: left;
-  margin-right: 6%;
+  margin-right: 2%;
 }
 
 .email-contact,
@@ -285,7 +285,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 4%;
+  gap: 0.4em;
   margin: 2% 0;
 }
 
@@ -321,9 +321,9 @@ body {
 }
 
 .copy {
-  margin-top: 10%;
-  font-size: clamp(0.4rem, 1vw, 0.6rem);
-  margin-right: 18%;
+  margin-top: 5%;
+  font-size: clamp(0.7rem, 1vw, 0.8rem);
+  margin-right: 10%;
 }
 
 /* STYLE RECIPE PAGES SECTIONINGS */
@@ -368,7 +368,7 @@ body {
 
 .solid {
   border-top: 2px solid;
-  color: #4b332d;
+  color: #945656;
   margin-right: 36%;
   margin-top: 8%;
 }
@@ -472,11 +472,12 @@ body {
   align-items: center;
   color: #ece3d4;
   background-color: #945656;
+  padding: 0.2em 0;
 }
 
 .right-container0 {
   margin: 2% 12%;
-  font-size: clamp(0.8rem, 2vw, 1.8rem);
+  font-size: clamp(0.9rem, 2vw, 1.8rem);
 }
 
 .right-text0 {
@@ -492,7 +493,7 @@ body {
 
 .left-container0 {
   margin: 2% 6%;
-  font-size: clamp(0.8rem, 2vw, 1.8rem);
+  font-size: clamp(0.9rem, 2vw, 1.8rem);
   font-weight: 600;
 }
 
@@ -599,16 +600,11 @@ select:hover {
   }
   .email-contact,
   .number-contact {
-    gap: 1%;
     margin: 1% 0;
   }
   .email-contact p,
   .number-contact p {
     font-size: clamp(0.8rem, 2vw, 1rem);
-  }
-
-  .copy {
-    margin-top: 1.8em;
   }
 }
 
