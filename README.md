@@ -4,7 +4,7 @@ Front-end project simulating a basic recipe website
 
 ## 🚀 Live Demo
 
-[Check it out here!](https://alyen28.github.io/The-Recipe-Journal/)
+[Check it out here!](https://the-recipe-journal.netlify.app/)
 
 ## 🛠️ Built With
 
